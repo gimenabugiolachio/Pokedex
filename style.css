@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+body{
+    background:url(/pok.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    position: absolute;
+    width: 17.2rem;
+    left: 34.7rem;
+    top: 42rem;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+}
+
+input{
+    width: 100%;
+    padding: 1.1rem;
+}
+
+.nombre{
+    position: absolute;
+    top: -4rem;
+    left: -3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.poke-card{
+    position: absolute;
+    height: fit-content;
+    font-family: 'Hind', sans-serif;
+    max-width: 18.75rem;
+    text-align: center;
+    top: 15rem;
+    left: 38rem;
+}
+
+
+
+.img-container{
+    position: relative;
+    width: 11rem;
+    margin: 1.25rem auto;
+}
+
+.poke-stats div{
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+    
+}
+
+.poke-types div{
+    border-radius: 0.28rem;
+    border: 0.06rem dashed #000;
+}
+
+.poke-img{
+    width: 7rem;
+    border-radius: 50%;
+}
+
+#pokedex{
+    position: relative;
+    max-width: 23rem;
+    padding: 1.25rem;
+    left: 37%;
+}
